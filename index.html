@@ -1,0 +1,3451 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Pizza Boom</title>
+  </head>
+  <body>
+    <header id="home" class="header">
+  <nav class="container">
+    <div class="logo">
+      <a href="index.html"></a>
+      <img src="img/logo.png" alt="logo" />
+    </div>
+    <ul class="main_menu">
+      <li class="menu">
+        <a href="#" data-language="menu">Меню </a>
+        <img src="icons/down-arrow.svg" alt="arrow" />
+
+        <ul class="submenu">
+          <li>
+            <a href="#pizza" class="scroll" data-language="pizza">Пицца</a>
+          </li>
+          <li>
+            <a href="#drinks" class="scroll" data-language="drinks">Напитки</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="#about" class="scroll" data-language="aboutus">О нас</a>
+      </li>
+      <li>
+        <a href="#promo" class="scroll" data-language="promo">Акции</a>
+      </li>
+      <li>
+        <a href="#delivery" class="scroll" data-language="delivery_payment"
+          >Оплата и доставка</a
+        >
+      </li>
+      <li>
+        <a href="#contacts" class="scroll" data-language="contacts">Контакты</a>
+      </li>
+    </ul>
+    <div class="call">
+      <div class="phone">
+        <img src="icons/call.svg" alt="call" />
+        <div data-language="our_phone">Наш телефон:</div>
+        <div class="bold">7717</div>
+      </div>
+      <div class="time">
+        <div data-language="daily">ежедневно</div>
+        <div class="bold" data-language="from_to">с 7:00 до 22:00</div>
+      </div>
+    </div>
+    <div class="cart">
+      <img src="icons/shopping-basket.svg" alt="cart" />
+      <div class="quantity">0</div>
+      <div class="price"> <span class="nav_total_sum">0 </span>  <span data-language="uah"> грн </span></div>
+    </div>
+    <div class="language">
+      <div class="ru">RU</div>
+      <div class="box">
+        <div class="control"></div>
+      </div>
+      <div class="en">EN</div>
+    </div>
+    <div class="burger">
+      <span class="burgerline burgerline-01"></span>
+      <span class="burgerline burgerline-02"></span>
+      <span class="burgerline burgerline-03"></span>
+    </div>
+  </nav>
+
+  <div class="content container">
+    <div class="utp">
+      <div class="animate_01">
+        <h1 data-language="h1">
+          Доставка пиццы
+        </h1>
+        <h2 data-language="h2">за 30 минут в Киеве</h2>
+        <p data-language="utp">
+          Мы приготовим самую свежую <br> и вкусную пиццу для вас <br> и доставим прямо к
+          дому
+        </p>
+        <p class="hilight_text" data-language="utp2">за 30 минут!</p>
+      </div>
+    <div class="animate_01">
+      <img class="btn_shadow" src="img/header_btn_shadow.png" alt="shadow" />
+      <div class="btn_header btn_gradient">
+        <a href="#pizza" class="scroll"></a>
+        <div data-language="tomenu">Перейти в меню</div>
+        <img src="icons/right-arrow.svg" alt="arrow" />
+      </div>
+  </div>
+    </div>
+  </div>
+  <div class="img_main">
+    <picture>
+      <source type="image/webp" srcset="img/header_pizza.webp">
+      <source type="image/png" srcset="img/header_pizza.png">
+      <img class="pizza_header" src="img/header_pizza.png" alt="pizza" />
+    </picture>
+  </div>
+</header>
+ <section id="about">
+  <h3 data-language="howwecook" class="_anim_items">Как мы готовим пиццу</h3>
+  <div class="recipt container">
+    <div class="line_01 _anim_items">
+      <div class="step step_01 _anim_items">
+        <picture>
+          <source type="image/webp" srcset="img/ingridient_01.webp">
+          <source type="image/png" srcset="img/ingridient_01.png">
+          <img src="img/ingridient_01.png" alt="ingridient" />
+        </picture>
+        <p>
+          <span data-language="ingridient1_1">Для нашей пиццы мы используем определенный</span>
+          <span class="hilight_text" data-language="ingridient1_2"
+            >сорт муки</span>
+          <span data-language="ingridient1_3">, который делает тесто упругим, но в то же время мягким и сочным.</span>
+        </p>
+      </div>
+      <div class="step step_02 _anim_items">
+        <picture>
+          <source type="image/webp" srcset="img/ingridient_02.webp">
+          <source type="image/png" srcset="img/ingridient_02.png">
+          <img src="img/ingridient_02.png" alt="ingridient" />
+        </picture>
+        <p>
+          <span class="hilight_text" data-language="ingridient2_1">Соус</span>
+          <span data-language="ingridient2_2">для пиццы мы готовим только из очищенных томатов,</span>
+          <br />
+          <span data-language="ingridient2_3">и никакой томатной пасты!</span>
+        </p>
+      </div>
+      <div class="step step_03 _anim_items">
+        <picture>
+          <source type="image/webp" srcset="img/ingridient_03.webp">
+          <source type="image/png" srcset="img/ingridient_03.png">
+          <img src="img/ingridient_03.png" alt="ingridient" />
+        </picture>
+        <p>
+          <span class="hilight_text" data-language="ingridient3_1">Начинка</span>
+          <span data-language="ingridient3_2">, а точнее, содержание пиццы. Мы используем только качественные, свежие</span>
+          <br />
+          <span data-language="ingridient3_3">продукты</span>
+          .
+        </p>
+      </div>
+    </div>
+    <div class="line_02 _anim_items">
+      <div class="step step_04 _anim_items">
+        <picture>
+          <source type="image/webp" srcset="img/ingridient_04.webp">
+          <source type="image/png" srcset="img/ingridient_04.png">
+          <img src="img/ingridient_04.png" alt="ingridient" />
+        </picture>
+        <p>
+          <span class="hilight_text" data-language="ingridient4_1">Сыр</span>
+          <span data-language="ingridient4_2"
+            >должен подчеркивать вкус остальных ингредиентов, не «забивая» его.
+            Поэтому мы отдает свое предпочтение <br />
+            сыру Моцарелла.</span
+          >
+        </p>
+      </div>
+      <div class="step step_05 _anim_items">
+        <picture>
+          <source type="image/webp" srcset="img/ingridient_05.webp">
+          <source type="image/png" srcset="img/ingridient_05.png">
+          <img src="img/ingridient_05.png" alt="ingridient" />
+        </picture>
+        <p>
+          <span data-language="ingridient5_1">Последний секрет вкусной пиццы: итальянская</span>
+          <span class="hilight_text" data-language="ingridient5_2">подовая печь</span
+          >
+          <span data-language="ingridient5_3">. Пицца готовится на камнях, благодаря чему пропекается равномерно, приобретает неповторимый вкус, цвет и аромат!</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <picture>
+    <source type="image/webp" srcset="img/bg_mozzarella.webp">
+    <source type="image/png" srcset="img/bg_mozzarella.png">
+    <img class="mozarella decor" src="img/bg_mozzarella.png" alt="mozzarella" />
+  </picture>
+
+  <picture>
+    <source type="image/webp" srcset="img/bg_pizza.webp">
+    <source type="image/png" srcset="img/bg_pizza.png">
+    <img class="pizza decor" src="img/bg_pizza.png" alt="pizza" />
+  </picture>
+
+  <img
+    class="leaves_01 decor"
+    src="img/ingridient_leaves_01.png"
+    alt="leaves"
+  />
+  <img
+    class="leaves_02 decor"
+    src="img/ingridient_leaves_02.png"
+    alt="leaves"
+  />
+  <img
+    class="leaves_03 decor"
+    src="img/ingridient_leaves_03.png"
+    alt="leaves"
+  />
+  <img
+    class="leaves_04 decor"
+    src="img/ingridient_leaves_04.png"
+    alt="leaves"
+  />
+</section>
+
+    <section id="pizza">
+  <h3 data-language="pizza" class="_anim_items">Пицца</h3>
+
+  <div class="container">
+    <div class="slider_menu slider_menu_pizza _anim_items">
+      <div class="slider_left_control gradient">
+        <img src="icons/right-arrow.svg" alt="arrow" />
+      </div>
+
+      <ul class="pizza_tabs">
+        <li class="favourite tab_notactive" data-language="favorite">
+          Любимые
+        </li>
+        <li class="premium tab_notactive" data-language="premium">Премиум</li>
+        <li class="classic tab_active" data-language="classic">
+          Классические
+        </li>
+        <li class="legend tab_notactive" data-language="legend">Легенды</li>
+        <li class="vegetarian tab_notactive" data-language="vegetarian">
+          Вегитарианские
+        </li>
+      </ul>
+
+      <div class="slider_right_control gradient">
+        <img src="icons/right-arrow.svg" alt="arrow" />
+      </div>
+    </div>
+
+    <div class="menu_pizza">
+      <!-- classic pizza  -->
+      <div class="row classic_pizza_content ">
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_01.webp">
+              <source type="image/png" srcset="img/pizza_01.png">
+              <img src="img/pizza_01.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="margarita">Маргарита</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="margarita_ingr_01">
+                  Соус томатный, помидоры,
+                </p>
+                <p data-language="margarita_ingr_02">моцарела, орегано</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm"> см </span></div>
+                <div class="weight">420 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  109 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="margarita"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="margarita"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="margarita"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="margarita"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_02.webp">
+              <source type="image/png" srcset="img/pizza_02.png">
+              <img src="img/pizza_02.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="caprichosa">Капричоза</h5>
+              <div class="pizza_ingridients">
+                <p data-language="caprichosa_ingr_01">
+                  Соус томатный, ветчина,
+                </p>
+                <p data-language="caprichosa_ingr_02">
+                  моцарела, свежие гриби
+                </p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">470 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  141 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="caprichosa"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="caprichosa"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="caprichosa"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="caprichosa"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_03.webp">
+              <source type="image/png" srcset="img/pizza_03.png">
+              <img src="img/pizza_03.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="four_cheeses">Четыре сыра</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="four_cheeses_ingr_01">
+                  Сливочный соус, груша,
+                </p>
+                <p data-language="four_cheeses_ingr_02">пармезан, моцарела,</p>
+                <p data-language="four_cheeses_ingr_03">рикотта, дор блю</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">390 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  172 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="four_cheeses"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="four_cheeses"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="four_cheeses"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="four_cheeses"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_04.webp">
+              <source type="image/png" srcset="img/pizza_04.png">
+              <img src="img/pizza_04.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="salami">Салями</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="salami_ingr_01">Cоус томатный, моцарела,</p>
+                <p data-language="salami_ingr_02">колбаса салями</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">420 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  141 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="salami"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="salami"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="salami"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="salami"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_05.webp">
+              <source type="image/png" srcset="img/pizza_05.png">
+              <img src="img/pizza_05.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="diabla">Диабла</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="diabla_ingr_01">Соус томатний, моцарела,</p>
+                <p data-language="diabla_ingr_02">чили, колбаса, пеперони</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">430 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  141 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="diabla"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="diabla"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="diabla"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="diabla"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_06.webp">
+              <source type="image/png" srcset="img/pizza_06.png">
+              <img src="img/pizza_06.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="carbonara">Карбонара</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="carbonara_ingr_01">Соус томатный, ветчина,</p>
+                <p data-language="carbonara_ingr_02">
+                  яйцо, баварськие колбаски,
+                </p>
+                <p data-language="carbonara_ingr_03">моцарела</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">480 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  148 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="carbonara"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="carbonara"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="carbonara"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="carbonara"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_07.webp">
+              <source type="image/png" srcset="img/pizza_07.png">
+              <img src="img/pizza_07.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="prosciutto">Прошуто</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="prosciutto_ingr_01">Соус томатний,</p>
+                <p data-language="prosciutto_ingr_02">моцарела, ветчина</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">410 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  131 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="prosciutto"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="prosciutto"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="prosciutto"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="prosciutto"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_08.webp">
+              <source type="image/png" srcset="img/pizza_08.png">
+              <img src="img/pizza_08.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="сalzone">Кальцоне аль Форно</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="сalzone_ingr_01">Соус томатний, пармезан,</p>
+                <p data-language="сalzone_ingr_02">
+                  ветчина, моцарела, рикота,
+                </p>
+                <p data-language="сalzone_ingr_03">помидори</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">470 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  148 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="сalzone"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="сalzone"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="сalzone"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="сalzone"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- favourite_pizza  -->
+      <div class="row favourite_pizza_content not_active_list">
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_10.webp">
+              <source type="image/png" srcset="img/pizza_10.png">
+              <img src="img/pizza_10.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="parma_crema">Парма Крема</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="parma_crema_ingr_01">
+                  Соус сливочный, крем сыр,
+                </p>
+                <p data-language="parma_crema_ingr_02">
+                  моцарела, пармская ветчина,
+                </p>
+                <p data-language="parma_crema_ingr_03">томаты черри, зелень</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm"> см </span></div>
+                <div class="weight">400 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  129 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="parma_crema"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="parma_crema"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="parma_crema"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="parma_crema"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_13.webp">
+              <source type="image/png" srcset="img/pizza_13.png">
+              <img src="img/pizza_13.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="fungo_polo">Фунго Поло</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="fungo_polo_ingr_01">
+                  Сливки, соус песто, радомер,
+                </p>
+                <p data-language="fungo_polo_ingr_02">
+                  куриное филе, моцарела,
+                </p>
+                <p data-language="fungo_polo_ingr_03">грибы, томаты черри</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm"> см </span></div>
+                <div class="weight">410 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  119 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="fungo_polo"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="fungo_polo"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="fungo_polo"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="fungo_polo"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_05.webp">
+              <source type="image/png" srcset="img/pizza_05.png">
+              <img src="img/pizza_05.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="peperoni">Пеперони</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="peperoni_ingr_01">
+                  Томатный соус, перец чили,
+                </p>
+                <p data-language="peperoni_ingr_02">моцарела, пеперони</p>
+                <p data-language="peperoni_ingr_03">соус Чили, зелень</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm"> см </span></div>
+                <div class="weight">400 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  126 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="peperoni"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="peperoni"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="peperoni"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="peperoni"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_03.webp">
+              <source type="image/png" srcset="img/pizza_03.png">
+              <img src="img/pizza_03.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="polobri">Поло Бри</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="polobri_ingr_01">
+                  Cоус сливочный, груша,
+                </p>
+                <p data-language="polobri_ingr_02">сыр Бри, моцарела,</p>
+                <p data-language="polobri_ingr_03">куриное филе, зелень</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm"> см </span></div>
+                <div class="weight">420 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  146 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="polobri"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="polobri"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="polobri"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="polobri"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- premium_pizza -->
+      <div class="row premium_pizza_content not_active_list">
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_09.webp">
+              <source type="image/png" srcset="img/pizza_09.png">
+              <img src="img/pizza_09.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="alsalmone">Аль сальмоне</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="alsalmone_ingr_01">Соус сливочный,</p>
+                <p data-language="alsalmone_ingr_02">моцарела, филе лосося</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">400 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  204 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="alsalmone"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="alsalmone"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="alsalmone"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="alsalmone"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_10.webp">
+              <source type="image/png" srcset="img/pizza_10.png">
+              <img src="img/pizza_10.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="parma">Парма</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="parma_ingr_01">
+                  Соус сливочный, пармезан,
+                </p>
+                <p data-language="parma_ingr_02">моцарелла, прошутто, рукола</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm"> см </span></div>
+                <div class="weight">400 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  186 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="parma"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="parma"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="parma"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="parma"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_11.webp">
+              <source type="image/png" srcset="img/pizza_11.png">
+              <img src="img/pizza_11.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="vitello">Вителло</h5>
+              <div class="pizza_ingridients">
+                <p data-language="vitello_ingr_01">
+                  Телятина, соус барбекю,
+                </p>
+                <p data-language="vitello_ingr_02">
+                  моцарела, синий лук,
+                </p>
+                <p data-language="vitello_ingr_03">
+                  корнюшоны
+                </p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">490 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  220 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="vitello"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="vitello"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="vitello"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="vitello"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_18.webp">
+              <source type="image/png" srcset="img/pizza_18.png">
+              <img src="img/pizza_18.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="fruttidimare">Дары моря</h5>
+              <div class="pizza_ingridients">
+                <p data-language="fruttidimare_ingr_01">
+                  Томатный соус, лосось, мидии,
+                </p>
+                <p data-language="fruttidimare_ingr_02">
+                  кальмар, моцарела,
+                </p>
+                <p data-language="fruttidimare_ingr_03">
+                  рукола, лимон
+                </p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">490 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  240 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="fruttidimare"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="fruttidimare"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="fruttidimare"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="fruttidimare"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- legend pizza  -->
+      <div class="row legend_pizza_content not_active_list">
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_13.webp">
+              <source type="image/png" srcset="img/pizza_13.png">
+              <img src="img/pizza_13.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="polo">Поло</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="polo_ingr_01">Моцарела, лук, майонез</p>
+                <p data-language="polo_ingr_02">помидоры, куриное мясо</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">400 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  164 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="polo"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="polo"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="polo"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="polo"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_14.webp">
+              <source type="image/png" srcset="img/pizza_14.png">
+              <img src="img/pizza_14.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="melanzana">Меланзана</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="melanzana_ingr_01">
+                  Соус сливочный, пармезан,
+                </p>
+                <p data-language="melanzana_ingr_02">моцарелла, ветчина,</p>
+                <p data-language="melanzana_ingr_03">баклажаны</p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm"> см </span></div>
+                <div class="weight">430 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  168 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="melanzana"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="melanzana"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="melanzana"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="melanzana"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_15.webp">
+              <source type="image/png" srcset="img/pizza_15.png">
+              <img src="img/pizza_15.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="tono">Тоно</h5>
+              <div class="pizza_ingridients">
+                <p data-language="tono_ingr_01">
+                  Соус томатний, лук, тунець,
+                </p>
+                <p data-language="tono_ingr_02">
+                  моцарела
+                </p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">470 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  185 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="tono"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="tono"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="tono"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="tono"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_16.webp">
+              <source type="image/png" srcset="img/pizza_16.png">
+              <img src="img/pizza_16.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="dolce">Дольче</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="dolce_ingr_01">Моцарелла, нутелла, банан,</p>
+                <p data-language="dolce_ingr_02">
+                  сахарная пудра, груша,
+                </p>
+                <p data-language="dolce_ingr_03">
+                  топинг фруктовий
+                </p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">410 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  108 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="dolce"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="dolce"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="dolce"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="dolce"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- vegetarian pizza  -->
+      <div class="row vegetarian_pizza_content not_active_list">
+        <div class="card_pizza col-sm-12 col-md-6 col-lg-3">
+          <picture>
+            <source type="image/webp" srcset="img/pizzacard_bg.webp">
+            <source type="image/png" srcset="img/pizzacard_bg.png">
+            <img src="img/pizzacard_bg.jpg" alt="background-image" />
+          </picture>
+
+          <div class="pizza_img_container">
+            <picture>
+              <source type="image/webp" srcset="img/pizza_17.webp">
+              <source type="image/png" srcset="img/pizza_17.png">
+              <img src="img/pizza_17.png" alt="pizza" />
+            </picture>
+          </div>
+          <div class="card_content">
+            <div class="card_description">
+              <h5 data-language="vegetarian">Вегитарианская</h5>
+
+              <div class="pizza_ingridients">
+                <p data-language="vegetarian_ingr_01">
+                  Соус сливочный, моцарелла
+                </p>
+                <p data-language="vegetarian_ingr_02">
+                  шампиньоны, перец болгарський
+                </p>
+                <p data-language="vegetarian_ingr_03">
+                  броколли
+                </p>
+              </div>
+
+              <div class="details">
+                <div class="size">32 <span data-language="sm">см</span></div>
+                <div class="weight">495 <span data-language="gr">гр</span></div>
+                <div class="price hilight_text">
+                  145 <span data-language="uah">грн</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="vegetarian"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="vegetarian"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="vegetarian"
+                  >
+                    +
+                  </div>
+                </div>
+
+                <button
+                  class="tocart gradient"
+                  data-id="vegetarian"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider_undermenu">
+      <div class="control_left">
+        <i class="fas fa-arrow-left"></i>
+      </div>
+
+      <div class="slider_under_line">
+        <div class="slider_under_active"></div>
+      </div>
+
+      <div class="control_right">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+    </div>
+  </div>
+</section>
+ <section id="drinks">
+  <h3 data-language="drinks" class="_anim_items">Напитки</h3>
+
+  <picture>
+    <source type="image/webp" srcset="img/cocacola_bg.webp">
+    <source type="image/png" srcset="img/cocacola_bg.png">
+    <img src="img/cocacola_bg.png" alt="coca_cola" class="_anim_items"/>
+  </picture>
+  
+  <img src="img/artishock.png" alt="artishock" class="_anim_items"/>
+  <img src="img/drinks_leaves.png" alt="leaves" />
+
+  <div class="container">
+    <div class="slider_menu slider_menu_drinks _anim_items">
+      <div class="slider_left_control gradient">
+        <img src="icons/right-arrow.svg" alt="arrow" />
+      </div>
+      <ul class="drinks_tabs">
+        <li class="withgas tab_active" data-language="withgas">
+          Газированные
+        </li>
+        <li class="juice tab_notactive" data-language="juice">Соки</li>
+
+        <li class="water tab_notactive" data-language="water">Вода</li>
+        <li class="icetea tab_notactive" data-language="icetea">
+          Холодный чай
+        </li>
+      </ul>
+      <div class="slider_right_control gradient">
+        <img src="icons/right-arrow.svg" alt="arrow" />
+      </div>
+    </div>
+
+    <div class="menu_drinks">
+      <div class="row withgas_drinks_content">
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/drink_01.webp">
+                <source type="image/png" srcset="img/drink_01.png">
+                <img src="img/drink_01.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Coca Cola</h5>
+              <div class="details">
+                <div class="size">0,33 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  12 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="cocacola033"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="cocacola033"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="cocacola033"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="cocacola033"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/drink_02.webp">
+                <source type="image/png" srcset="img/drink_02.png">
+                <img src="img/drink_02.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Coca Cola</h5>
+              <div class="details">
+                <div class="size">0,5 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  15 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="cocacola05"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="cocacola05"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="cocacola05"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="cocacola05"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/drink_03.webp">
+                <source type="image/png" srcset="img/drink_03.png">
+                <img src="img/drink_03.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Coca Cola</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  22 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="cocacola1"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="cocacola1"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="cocacola1"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="cocacola1"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/drink_04.webp">
+                <source type="image/png" srcset="img/drink_04.png">
+                <img src="img/drink_04.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Fanta</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  18 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="fanta"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="fanta"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="fanta"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="fanta"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/drink_05.webp">
+                <source type="image/png" srcset="img/drink_05.png">
+                <img src="img/drink_05.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="schweppes_garnet">Швепс Гранат</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  24 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="schweppes_garnet"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="schweppes_garnet"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="schweppes_garnet"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="schweppes_garnet"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/drink_06.webp">
+                <source type="image/png" srcset="img/drink_06.png">
+                <img src="img/drink_06.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="schweppes_grapefruit">Швепс Грейпфрут</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  24 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="schweppes_grapefruit"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="schweppes_grapefruit"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="schweppes_grapefruit"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="schweppes_grapefruit"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/drink_07.webp">
+                <source type="image/png" srcset="img/drink_07.png">
+                <img src="img/drink_07.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="schweppes_mojito">Швепс Мохито</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  24 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="schweppes_mojito"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="schweppes_mojito"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="schweppes_mojito"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="schweppes_mojito"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3 _anim_items">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/drink_08.webp">
+                <source type="image/png" srcset="img/drink_08.png">
+                <img src="img/drink_08.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="schweppes_lemon">Швепс Лимон</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  24 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="schweppes_lemon"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="schweppes_lemon"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="schweppes_lemon"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="schweppes_lemon"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row juice_drinks_content not_active_list">
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/juice_01.webp">
+                <source type="image/png" srcset="img/juice_01.png">
+                <img src="img/juice_01.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="orange">Апельсин</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  35 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="orange"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="orange"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="orange"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="orange"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/juice_02.webp">
+                <source type="image/png" srcset="img/juice_02.png">
+                <img src="img/juice_02.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="apple">Яблоко</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  35 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="apple"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="apple"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="apple"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="apple"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/juice_03.webp">
+                <source type="image/png" srcset="img/juice_03.png">
+                <img src="img/juice_03.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="pineapple">Ананас</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  35 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="pineapple"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="pineapple"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="pineapple"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="pineapple"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/juice_04.webp">
+                <source type="image/png" srcset="img/juice_04.png">
+                <img src="img/juice_04.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="multi">Мультивитамин</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  35 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="multi"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="multi"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="multi"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="multi"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/juice_05.webp">
+                <source type="image/png" srcset="img/juice_05.png">
+                <img src="img/juice_05.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="peach_orrange">Персик-апельсин</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  35 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="peach_orrange"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="peach_orrange"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="peach_orrange"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="peach_orrange"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/juice_06.webp">
+                <source type="image/png" srcset="img/juice_06.png">
+                <img src="img/juice_06.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="cranberry">Клюква</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  35 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="cranberry"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="cranberry"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="cranberry"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="cranberry"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/juice_07.webp">
+                <source type="image/png" srcset="img/juice_07.png">
+                <img src="img/juice_07.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="redorange">Сицилийский апельсин</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  35 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="redorange"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="redorange"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="redorange"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="redorange"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/juice_08.webp">
+                <source type="image/png" srcset="img/juice_08.png">
+                <img src="img/juice_08.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5 data-language="tomato">Томат</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  35 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="tomato"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="tomato"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="tomato"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="tomato"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row water_drinks_content not_active_list">
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/water_01.webp">
+                <source type="image/png" srcset="img/water_01.png">
+                <img src="img/water_01.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Evian</h5>
+              <div class="details">
+                <div class="size">1,5 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  32 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="evian15"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="evian15"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="evian15"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="evian15"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/water_02.webp">
+                <source type="image/png" srcset="img/water_02.png">
+                <img src="img/water_02.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Evian</h5>
+              <div class="details">
+                <div class="size">1 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  30 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="evian1"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="evian1"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="evian1"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="evian1"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/water_03.webp">
+                <source type="image/png" srcset="img/water_03.png">
+                <img src="img/water_03.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Evian</h5>
+              <div class="details">
+                <div class="size">0.7 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  18 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="evian07"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="evian07"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="evian07"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="evian07"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/water_04.webp">
+                <source type="image/png" srcset="img/water_04.png">
+                <img src="img/water_04.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Evian</h5>
+              <div class="details">
+                <div class="size">0.75 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  24 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="evian075"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="evian075"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="evian075"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="evian075"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row icetea_drinks_content not_active_list">
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/icetea_01.webp">
+                <source type="image/png" srcset="img/icetea_01.png">
+                <img src="img/icetea_01.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Sparkling Ice Tea</h5>
+              <div class="details">
+                <div class="size">0,33 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  25 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="icetea01"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="icetea01"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="icetea01"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="icetea01"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/icetea_02.webp">
+                <source type="image/png" srcset="img/icetea_02.png">
+                <img src="img/icetea_02.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Green Ice Tea</h5>
+              <div class="details">
+                <div class="size">0,33 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  25 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="icetea02"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="icetea02"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="icetea02"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="icetea02"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_drinks col-sm-12 col-md-6 col-lg-3">
+          <div class="card_content">
+            <div class="drink_img_container">
+              <picture>
+                <source type="image/webp" srcset="img/icetea_03.webp">
+                <source type="image/png" srcset="img/icetea_03.png">
+                <img src="img/icetea_03.png" alt="drink" />
+              </picture>
+            </div>
+            <div class="card_description">
+              <h5>Peach Ice Tea</h5>
+              <div class="details">
+                <div class="size">0.33 <span data-language="l">л</span></div>
+                <div class="price hilight_text">
+                  25 <span data-language="uah">грн</span>
+                </div>
+              </div>
+              <div class="actions">
+                <div class="quantity_regulation">
+                  <div
+                    class="control_regulation hilight_text minus"
+                    data-id="icetea03"
+                  >
+                    -
+                  </div>
+                  <input
+                    class="order_quantity"
+                    type="text"
+                    value="1"
+                    data-id="icetea03"
+                  />
+                  <div
+                    class="control_regulation hilight_text plus"
+                    data-id="icetea03"
+                  >
+                    +
+                  </div>
+                </div>
+                <button
+                  class="tocart gradient"
+                  data-id="icetea03"
+                  data-language="addtocart"
+                >
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider_undermenu">
+      <div class="control_left">
+        <i class="fas fa-arrow-left"></i>
+      </div>
+
+      <div class="slider_under_line">
+        <div class="slider_under_active"></div>
+      </div>
+
+      <div class="control_right">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="delivery">
+  <h3 data-language="pizza_delivery" class="_anim_items">Как получить свою пиццу?</h3>
+  <img src="img/delivery_leaves.png" alt="leaves" />
+
+  <img src="img/delivery_tomato.png" alt="tomato" class="_anim_items"/>
+
+  <div class="container">
+    <picture>
+      <source type="image/webp" srcset="img/delivery_pizza.webp">
+      <source type="image/png" srcset="img/delivery_pizza.png">
+      <img src="img/delivery_pizza.png" alt="pizza" />
+    </picture>
+
+    <div class="delivery_steps">
+      <div class="delivery_step _anim_items">
+        <div class="gradient step_nubmer">1</div>
+        <div class="delivery_title">
+          <img src="icons/order.svg" alt="icon" />
+          <h6 data-language="step_title_01">Сделайте заказ</h6>
+        </div>
+        <div class="delivery_info">
+          <span data-language="step_info_01_1">
+            Выберите пиццу и напитки и заполните форму заказа на сайте или
+            позвоните нам. Укажите способ доставки. Нашьменеджер свяжется с вами
+            в течение
+          </span>
+          <span class="hilight_text" data-language="step_info_01_2"
+            >10 минут</span
+          >
+          <span data-language="step_info_01_3">
+            после оформления заказа, для уточнения деталей.</span
+          >
+        </div>
+      </div>
+
+      <div class="delivery_step _anim_items">
+        <div class="gradient step_nubmer">2</div>
+        <div class="delivery_title">
+          <img src="icons/credit-card.svg" alt="icon" />
+          <h6 data-language="step_title_02">Оплайте заказ</h6>
+        </div>
+        <div class="delivery_info" data-language="step_info_02">
+          Вы можете оплатить заказ прямо на сайте онлайн или наличными нашему
+          курьеру.
+        </div>
+      </div>
+
+      <div class="delivery_step _anim_items">
+        <div class="gradient step_nubmer">3</div>
+        <div class="delivery_title">
+          <img src="icons/pizza_delivery.svg" alt="icon" />
+          <h6 data-language="step_title_03">
+            Ожидайте курьера или заберите сами
+          </h6>
+        </div>
+        <div class="delivery_info">
+          <span data-language="step_info_03_1"
+            >Вы можете забрать заказ самостоятельно по адресу:</span
+          >
+
+          <span class="hilight_text" data-language="step_info_03_2"
+            >Киев, ул. Ивана Мазепы, 1
+          </span>
+          <span data-language="step_info_03_3"
+            >или курьер доставим вам пиццу в течение</span
+          >
+          <p class="hilight_text" data-language="step_info_03_4">
+            30 минут после заказа.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tomato _anim_items">
+    <img src="img/delivery_vegetables.png" alt="tomato" />
+  </div>
+
+</section>
+ <section id="promo">
+  <div class="container">
+    <div class="row insta_content">
+      <div class="promo_text _anim_items">
+        <h3 data-language="promotions">Hаши акции</h3>
+        <div class="promotion_insta">
+          <p data-language="promo_01">Отмечайте нас в Instagram и получайте</p>
+          <p>
+            <span class="hilight_text" data-language="promo_02_1"
+              >скидку -10%</span
+            >
+            <span data-language="promo_02_2">на следующий заказ.</span>
+          </p>
+        </div>
+        <div class="insta_link_title" data-language="promo_03">
+          Ссылка для перехода в наш аккаунт:
+        </div>
+        <div class="insta_btn">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+          <img src="icons/instagram.svg" alt="logo" />
+          <div class="btn_line"></div>
+          <div class="insta_link">Instagram</div>
+        </div>
+      </div>
+
+      <div class="gallery _anim_items">
+        <div class="row">
+          <div>
+            <picture>
+              <source type="image/webp" srcset="img/insta_01.webp">
+              <source type="image/png" srcset="img/insta_01.png">
+              <img src="img/insta_01.png" alt="insta_post" />
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source type="image/webp" srcset="img/insta_02.webp">
+              <source type="image/png" srcset="img/insta_02.png">
+              <img src="img/insta_02.png" alt="insta_post" />
+            </picture>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <picture>
+              <source type="image/webp" srcset="img/insta_03.webp">
+              <source type="image/png" srcset="img/insta_03.png">
+              <img src="img/insta_03.png" alt="insta_post" />
+            </picture>
+          </div>
+          <div>
+            <picture>
+              <source type="image/webp" srcset="img/insta_04.webp">
+              <source type="image/png" srcset="img/insta_04.png">
+              <img src="img/insta_04.png" alt="insta_post" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <picture>
+    <source type="image/webp" srcset="img/insta_bg.webp">
+    <source type="image/png" srcset="img/insta_bg.png">
+    <img src="img/insta_bg.png" alt="spices" />
+  </picture>
+</section>
+
+    <section id="contacts">
+  <div class="container">
+    <div class="row">
+      <div class="map _anim_items">
+        <picture>
+          <source type="image/webp" srcset="img/map.webp">
+          <source type="image/png" srcset="img/map.png">
+          <img src="img/map.png" alt="map" />
+        </picture>
+      </div>
+
+      <div class="contacts_wrapper">
+        <h3 data-language="contacts" class="_anim_items">контакты</h3>
+        <div class="content">
+          <div class="content_info _anim_items" data-language="contacts_01">
+            Вы можете забрать ваш заказ самостоятельно
+          </div>
+
+          <div class="address _anim_items">
+            <div class="row">
+              <img src="img/contacts_01.png" alt="icon" />
+              <div class="title_address" data-language="address_takeaway">
+                Адрес самовывоза:
+              </div>
+            </div>
+            <div class="hilight_text contact_ml" data-language="address">
+              Киев, ул. Ивана Мазепы, д. 1
+            </div>
+          </div>
+
+          <div class="opentime _anim_items">
+            <div class="row">
+              <img src="img/contacts_02.png" alt="icon" />
+              <div class="title_address" data-language="open_time">
+                Время работы:
+              </div>
+            </div>
+            <div class="contact_ml">
+              <span data-language="daily">ежедневно</span>
+              <span class="hilight_text" data-language="from_to"
+                >с 7:00 до 22:00
+              </span>
+            </div>
+          </div>
+
+          <div class="phonenumber _anim_items">
+            <div class="row">
+              <img src="img/contacts_03.png" alt="icon" />
+              <div class="title_address" data-language="telephone">Телефон</div>
+            </div>
+            <div class="hilight_text contact_ml">7717</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <picture>
+      <source type="image/webp" srcset="img/lady.webp">
+      <source type="image/png" srcset="img/lady.png">
+      <img src="img/lady.png" alt="lady" class="_anim_items"/>
+    </picture>
+    <picture>
+      <source type="image/webp" srcset="img/olives.webp">
+      <source type="image/png" srcset="img/olives.png">
+      <img src="img/olives.png" alt="olives" class="_anim_items"/>
+    </picture>
+
+    <img src="img/contacts_leave.png" alt="leave" class="_anim_items"/>
+  </div>
+</section>
+ <footer>
+  <div class="container">
+    <div class="row">
+      <div class="footer_left _anim_items">
+        <div class="logo">
+          <a href="#home" class="scroll"></a
+          ><img src="img/logo.png" alt="logo" />
+        </div>
+
+        <div class="rights ">
+          © NataLina-2020
+        </div>
+      </div>
+
+      <div class="insta_btn _anim_items">
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+        <img src="icons/instagram.svg" alt="logo" />
+        <div class="btn_line"></div>
+        <div class="insta_link">Instagram</div>
+      </div>
+
+      <div class="privacy_policy _anim_items">
+        <a href="404.html" data-language="privacy_policy">Политика конфеденциальности</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="cart_wrapper wrapper">
+  <div class="cart_holder holder">
+    <img src="img/close.png" alt="close" />
+
+    <div class="cart_empty">
+      <picture>
+        <source type="image/webp" srcset="img/empty_cart.webp">
+        <source type="image/png" srcset="img/empty_cart.png">
+        <img src="img/empty_cart.png" alt="girl" />
+      </picture>
+      <div data-language="empty">Ваша корзина пуста.</div>
+    </div>
+
+    <div class="cart_content_full">
+      <h4 data-language="cart">Корзина</h4>
+
+      <div class="order_in_cart">
+      </div>
+
+      <div class="delivery_price">
+        <div data-language="delivery_price">Стоимость доставки:</div>
+        <div class="delivery_num">0 <span data-language="uah">грн</span></div>
+      </div>
+
+      <div class="total_payment">
+        <div data-language="total_pay">Итого к оплате:</div>
+        <div class="total_payment_sum hilight_text">
+          <span class="total_order_price"></span> <span data-language="uah">грн</span>
+        </div>
+      </div>
+
+      <button class="order_confirm gradient" data-language="check_out">
+        Оформить заказ
+      </button>
+    </div>
+  </div>
+</div>
+ <div class="checkout_wrapper wrapper">
+  <div class="checkout_holder holder">
+    <img src="img/close.png" alt="close" />
+
+    <form action="#">
+      <h4 data-language="fullfil_form">Заполните форму</h4>
+      <p class="error hilight_text" data-language="error">Пожалуйста  заполните все обязательные поля</p>
+
+      <div class="line_01 row">
+        <input type="text" id="name" name="username" placeholder="Ваше имя*" class="required" autocomplete="off" />
+        <input type="tel" id="phone" name="telephone" placeholder="+38 (___) ___ - __ - __" class="required" autocomplete="off"/> 
+
+      </div>
+
+      <div class="line_02 row">
+        <div class="input_street">
+          <div class="street_input_value">
+            <input type="text" id="street" placeholder="Улица*" autocomplete="off" class="required"/>
+            <img src="icons/down-arrow.svg" alt="arrow" />
+          </div>
+          <div class="street_select">
+            <ul>
+              <li data-language="amurskaya">Амурская</li>
+              <li data-language="vasilkovskaya">Васильковская</li>
+              <li data-language="vesnina">Веснина</li>
+              <li data-language="goloseevskaya">Голосеевская</li>
+              <li data-language="konnoy_armii">Конной Армии</li>
+              <li data-language="lomonosova">Михаила Ломоносова</li>
+              <li data-language="koshevogo">Олега Кошевого</li>
+              <li data-language="pavlova">Павлова</li>
+              <li data-language="pushkinskaya">Пушкинская</li>
+              <li data-language="rimarskaya">Рымарская</li>
+              <li data-language="uzhgorodskaya">Ужгородская</li>
+            </ul>
+          </div>
+        </div>
+        <div class="input_house row">
+          <div class="house">
+            <div class="house_input_value">
+              <input type="text" id="house" placeholder="Дом*" autocomplete="off" class="required" />
+              <img src="icons/down-arrow.svg" alt="arrow" />
+            </div>
+            <div class="house_select">
+              <ul>
+                <li>101</li>
+                <li>102</li>
+                <li>103</li>
+                <li>104</li>
+                <li>105</li>
+                <li>106</li>
+                <li>107</li>
+                <li>108</li>
+              </ul>
+            </div>
+          </div>
+          <div class="corpus">
+            <input type="text" id="corpus" placeholder="Корп." />
+          </div>
+          <div class="appartment">
+            <input type="text" id="appartment" placeholder="Кв." />
+          </div>
+        </div>
+      </div>
+
+      <div class="line_03 row">
+        <div class="delivery_time">
+          <label for="delivery_date" data-language="delivery_time"
+            >Время доставки:</label
+          >
+          <div id="delivery_date" class="time_box">
+            <div class="date">
+              <div class="date_now">31-12-2020</div>
+              <img src="icons/down-arrow.svg" alt="arrow" />
+            </div>
+            <div class="datepicker_wrapper">
+              <div class="date_picker">
+                <div class="dates">
+                  <div class="month">
+                    <div class="arrows prev_mth">&lt;</div>
+                    <div class="mth hilight_text"></div>
+                    <div class="arrows next_mth">&gt;</div>
+                  </div>
+                  <div class="days">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="time">
+              <div class="time_now"></div>
+              <img src="icons/down-arrow.svg" alt="arrow" />
+            </div>
+            <div class="timepicker_wrapper">
+              <div class="time_picker">
+                <div class="times">
+                  <div class="time_actual">
+                    <div class="arrows prev_mth"></div>
+                    <div class="time_now hilight_text"></div>
+                    <div class="arrows next_mth"></div>
+                  </div>
+
+                  <div class="timing_block">
+                    <div class="timing">09 : 00</div>
+                    <div class="timing">09 : 30</div>
+                    <div class="timing">10 : 00</div>
+                    <div class="timing">10 : 30</div>
+                    <div class="timing">11 : 00</div>
+                    <div class="timing">11 : 30</div>
+                    <div class="timing">12 : 30</div>
+                    <div class="timing">13 : 00</div>
+                    <div class="timing">13 : 30</div>
+                    <div class="timing">14 : 00</div>
+                    <div class="timing">15 : 30</div>
+                    <div class="timing">16 : 00</div>
+                    <div class="timing">16 : 30</div>
+                    <div class="timing">17 : 00</div>
+                    <div class="timing">17 : 30</div>
+                    <div class="timing">18 : 00</div>
+                    <div class="timing">19 : 30</div>
+                    <div class="timing">20 : 00</div>
+                    <div class="timing">20 : 30</div>
+                    <div class="timing">21 : 00</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="payment_type">
+          <div class="payment_select">
+            <input type="text" id="payment_type" placeholder="Способ обплаты*" autocomplete="off" class="required"/>
+            <img src="icons/down-arrow.svg" alt="arrow" />
+          </div>
+          <div class="payment_options">
+            <ul >
+              <li data-payment="cash" data-language="cash">Наличными курьеру</li>
+              <li data-payment="card" data-language="card">Картой</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="line_04 row">
+        <div class="change">
+          <div for="change" data-language="change"
+            >С какой суммы курьеру подготовить сдачу?</div
+          >
+          <input type="text" id="change" placeholder="200 грн*" name="change" class="required"/>
+        </div>
+
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="Комментарий к заказу"
+        ></textarea>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="total_payment">
+        <div data-language="total_pay">Итого к оплате:</div>
+        <div class="total_payment_sum hilight_text"><span class="total_order_price"></span>  <span>грн</span> </div>
+      </div>
+
+      <button type="submit" class="order_confirm gradient" data-language="check_out">
+        Оформить заказ
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div class="cart_wrapper wrapper">
+  <div class="cart_holder holder">
+    <img src="img/close.png" alt="close" />
+
+    <div class="cart_empty">
+      <picture>
+        <source type="image/webp" srcset="img/empty_cart.webp">
+        <source type="image/png" srcset="img/empty_cart.png">
+        <img src="img/empty_cart.png" alt="girl" />
+      </picture>
+      <div data-language="empty">Ваша корзина пуста.</div>
+    </div>
+
+    <div class="cart_content_full">
+      <h4 data-language="cart">Корзина</h4>
+
+      <div class="order_in_cart">
+      </div>
+
+      <div class="delivery_price">
+        <div data-language="delivery_price">Стоимость доставки:</div>
+        <div class="delivery_num">0 <span data-language="uah">грн</span></div>
+      </div>
+
+      <div class="total_payment">
+        <div data-language="total_pay">Итого к оплате:</div>
+        <div class="total_payment_sum hilight_text">
+          <span class="total_order_price"></span> <span data-language="uah">грн</span>
+        </div>
+      </div>
+
+      <button class="order_confirm gradient" data-language="check_out">
+        Оформить заказ
+      </button>
+    </div>
+  </div>
+</div>
+ <div class="thanks_wrapper wrapper">
+  <div class="thanks_holder holder">
+    <img src="img/close.png" alt="close" />
+
+    <h4 data-language="thanks">Спасибо за заказ!</h4>
+    <p data-language="thanks1">Наш менеджер свяжеться с вами</p>
+    <p data-language="thanks2">в течение 15 минут, чтобы</p>
+    <p data-language="thanks3">подтвердить ваш заказ.</p>
+
+    <img src="img/thanks.png" alt="pizza">
+  </div>
+</div>
+
+
+    <div class="totop gradient">
+      <a href="#home" class="scroll"></a>
+      <img src="icons/right-arrow.svg" alt="arrow" />
+    </div>
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+
+    <script>
+      gsap.from('.animate_01', {opacity: 0, duration:1, y: -100, stagger: 0.6, delay: 0.5})
+      gsap.from('nav', {opacity: 0, duration:1, y: -30, delay: 0.5})
+      gsap.from('.img_main', {opacity: 0, duration:1, backgroundPosition: "100px 0", delay: 0.7})
+ 
+    </script>
+    
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
