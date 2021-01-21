@@ -7,6 +7,16 @@
 * Gulp
 * GSAP
 
+<h3 align="center"> :computer: Desktop</h3>
+<div align="center">
+  <img src="https://github.com/NataLinaIT/pizza_delivery.github.io/blob/main/assets/pizza_desctop.gif?raw=true" alt="screenshot" >
+</div>
+
+<h3 align="center"> :iphone: Mobile </h3>
+<div align="center">
+  <img src="https://github.com/NataLinaIT/pizza_delivery.github.io/blob/main/assets/pizza_mobile.gif?raw=true" alt="screenshot" >
+</div>
+
 #### Project functionality includes:
   - Adaptivity for mobile and tablet devices;
   - Crossbrowser compatiblity;
