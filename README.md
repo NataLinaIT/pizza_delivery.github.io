@@ -14,7 +14,7 @@
 
 <h3 align="center"> :iphone: Mobile </h3>
 <div align="center">
-  <img src="https://github.com/NataLinaIT/pizza_delivery.github.io/blob/main/assets/pizza_mobile.gif?raw=true" alt="screenshot" >
+  <img src="https://github.com/NataLinaIT/pizza_delivery.github.io/blob/main/assets/pizza_mobile.gif?raw=true" alt="screenshot" width="300px" >
 </div>
 
 #### Project functionality includes:
